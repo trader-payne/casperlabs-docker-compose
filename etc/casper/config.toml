@@ -187,5 +187,5 @@ gossip_interval = 120_000
 #
 # It is usually better to leave this option off and enable it explicitly via command-line override
 # only in the unit files themselves via `-C=network.systemd_support=true`.
-systemd_support = true
+systemd_support = false
 public_address = '135.181.5.147:34553'
